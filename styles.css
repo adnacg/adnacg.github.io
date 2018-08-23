@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
+  background-color: #fcdca4;
+}
+/*
+green #75A08A
+pink #F6AFA9
+beige #F4CDB6
+olive #99872D */
+
+.container {
+  margin-top: 8rem;
+}
+
+.collapsible {
+  border: none;
+  background-color: #75a08a;
+  color: #f4cdb6;
+}
+
+.collapsible-header {
+  background-color: #75a08a;
+  border: none;
+}
+
+.collapsible-body {
+  border: none;
+  color: #fcdca4;
+}
+
+.light {
+  font-weight: 300;
+}
+
+.modal {
+  background-color: #75a08a;
+}
+
+.portfolioImg {
+  width: 4rem;
+  height: 4rem;
+  border: none;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+.portfolioImgL {
+  width: 30rem;
+  height: 30rem;
+}

@@ -1,1 +1,0 @@
-# adnacg.github.io
