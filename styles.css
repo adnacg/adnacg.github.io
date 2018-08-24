@@ -9,11 +9,19 @@ body {
   font-family: "Josefin Sans", sans-serif;
   background-color: #fcdca4;
 }
-/*
-green #75A08A
-pink #F6AFA9
-beige #F4CDB6
-olive #99872D */
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+  color: #fcdca4;
+}
+
+a:hover {
+  text-decoration: underline;
+  font-weight: 900;
+}
 
 .container {
   margin-top: 8rem;
@@ -52,6 +60,6 @@ olive #99872D */
 }
 
 .portfolioImgL {
-  width: 30rem;
+  max-width: 780px;
   height: 30rem;
 }
